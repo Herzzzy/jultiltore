@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+}
+h1 {
+    color:white;
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 50vh;
+    text-shadow: 2px 2px 8px #FF0000;
+
+}
+body {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Download-Snowy-Mountains-Image-Free.jpg");
+    background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .line {
+    width: 100vw;
+  }
+  .left, .right {
+    width: 50vw;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .left {
+    color:pink;
+    transform: skew(0deg, -15deg);
+  }
+  .right {
+    color: black;
+    transform: skew(0deg, 15deg);
+  }
+  .left .content {
+    width: 100vw;
+    text-align: center;
+  }
+  .right .content {
+    width: 100vw;
+    text-align: center;
+    transform: translate(-50vw);
+  }
+  span {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10vw;
+    text-transform: uppercase;
+    line-height: .8;
+    transition: ease-out .6s;
+  }
